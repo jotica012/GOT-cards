@@ -1,0 +1,58 @@
+.card {
+    width: 250px;
+    height: 294px;
+    border-radius: 20px;
+    position: relative;
+    padding: 1.8rem;
+    border: 8px solid #5a4027;
+    background: #fff1c4;
+    background: linear-gradient(to top, #75602c 0%, #f6d27e 100%);
+    overflow: visible;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10%;
+   }
+   
+   .card-details {
+    color: rgb(255, 219, 110);
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: left;
+    
+   }
+   
+   .text-body {
+    position: absolute;
+    bottom: 1%;
+    font-family: fantasy;
+    color: rgb(255, 217, 120);
+    
+    display: flex;
+    align-items: center;
+    justify-content: left;
+   }
+
+   .image-body {
+    position: absolute;
+    bottom: 28%;
+    left: 13%;
+    border-radius: .5rem;
+    max-width: 250px;
+    max-height: 250px;
+
+   }
+   
+   .text-title {
+    position: absolute;
+    font-family: fantasy;
+    font-size: 1.5em;
+    font-weight: bold;
+    bottom: 5%; 
+    text-align: center;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+   }
+   
+   
